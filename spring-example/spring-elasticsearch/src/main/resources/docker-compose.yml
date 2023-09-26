@@ -1,0 +1,11 @@
+version: '3.1'
+services:
+  elasticsearch:
+    image: elasticsearch:7.17.10
+    ports:
+      - '9200:9200'
+      - '9300:9300'
+    volumes:
+      - ./data:/data/db
+    environment:
+      - discovery.type=single-node
