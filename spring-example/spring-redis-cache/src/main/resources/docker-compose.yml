@@ -7,3 +7,4 @@ services:
       - "6379:6379"
     volumes:
       - ./data:/data/db
+    command: ["redis-server", "--appendonly", "yes"]
