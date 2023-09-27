@@ -21,5 +21,6 @@
     <module>spring-redis-cache</module>
     <module>spring-boot-websocket</module>
     <module>spring-boot-pagination</module>
+    <module>spring-boot-events</module>
   </modules>
 </project>
